@@ -1,0 +1,282 @@
+const interests = {
+    categories: [
+        "Aviation",
+        "Engineering",
+        "Home Owners' Association (HOA)",
+        "Sales"
+    ],
+    interests: [
+        {
+            id: 1,
+            category: "Aviation",
+            experience: "Pilot",
+            img: "pilot.jpg",
+            imgDescription: "Pilot",
+            subcategory: [],
+            qualifications: [
+                "South African Airline Transport Pilot Licence with Grade 2 Turbojet Multi-Instructor Rating",
+                "South African Air Force Instructor Pilot",
+                "United States Air Force Instructor Pilot / FAA licence equivalent",
+                "Chief Flight Instructor and Flight Safety Officer at National Aeronautics ",
+                "Captain on Part 121 and Part 135 type aircraft.",
+                "Test Pilot Rating",
+                "Served for the United Nations Organization (UNO) during the World Food Programme in the DRC and Central Africa."
+            ]
+        },
+        {
+            id: 2,
+            category: "Aviation",
+            experience: "Flight Training",
+            img: "training.jpg",
+            imgDescription: "Flight Training",
+            subcategory: [],
+            qualifications: [
+                "Pilot Training Qualified for Private Pilot",
+                "Pilot Training Qualified for Commercial Pilot",
+                "Pilot Training Qualified for Airline Transport Pilot",
+                "Crew Resource Management (CRM)",
+                "Fatigue Risk Management",
+                "Crisis Management",
+                "Incident Response Management",
+                "All Part 141 (Pilot Training) Accreditations Auditor/Inspector qualified",
+                "Evidence-Based Training Instructor",
+                "Authorized Officer for Designated Flight Examiner Oversight",
+                "Assessor qualified",
+                "Minimum Navigation Performance Systems (MNPS) qualified",
+                "Reduced Vertical Separation Minima (RVSM) in the North Atlantic Tracks (NATs)",
+                "Performance-Based Navigation ",
+                "Safety Emergency Performance Training (SEPT)",
+                "Route Navigation (R-NAV), GNSS",
+                "Radiotelephony Examiner",
+                "Dangerous Goods (DG) Air Crew qualified",
+                "Curriculum Developer and Lecturer in 26 Aviation related subjects including Human Factors"
+            ]
+        },
+        {
+            id: 3,
+            category: "Aviation",
+            experience: "Awards, Flight Phases and Aircraft Type Experience",
+            img: "awards.jpg",
+            imgDescription: "Award",
+            subcategory: [
+                {
+                    title: "Awards",
+                    qualifications: [
+                        "Floating Trophy for \“Best Overall Improvement Award\”"
+                    ]
+                },
+                {
+                    title: "Flight Phases",
+                    qualifications: [
+                        "Basic General Flying",
+                        "Basic Instrument Flying",
+                        "Advanced General Flying",
+                        "Advanced Instrument Flying",
+                        "Formation Flying",
+                        "Night Flying",
+                        "Navigation",
+                        "Abinitio Pilot Instruction",
+                        "Passenger Transport",
+                        "Para-trooping",
+                        "Supply Dropping",
+                        "Casualty Evacuation",
+                        "Visual Reconnaissance",
+                        "Search and Rescue",
+                        "Test Flights",
+                        "Competent in strip landing and low level (50 feet) flying Low Visibility Procedural (LVP) Standards",
+                        "Involved in test flights on DC3T at TFDC",
+                        "Hercules C130B -  Involved in actual 3 and 2 engine scenarios",
+                        "C.P.R. Course qualified",
+                        "Land and Sea Survival qualified",
+                        "Survey flights for \“Map Making Procedures\”",
+                    ]
+                },
+                {
+                    title: "Type Experience",
+                    qualifications: [
+                        "Pilatus Astra PC 7 Mkll (Instructor rated) ",
+                        "Caravan 208 (licence endorsed)",
+                        "Dakota DC3T (licence endorsed)",
+                        "PAC750XL",
+                        "Hercules C130B",
+                        "PC 9 (Instructor rated)",
+                        "Beech 400 - (USAF/Lear Siegler)",
+                        "BE76 (Instructor rated)",
+                        "BE55 (Instructor rated)",
+                        "C182 (Instructor rated)",
+                        "C550/C500 SII",
+                        "Thunderbird Mk II (Instructor rated)",
+                        "PA 34 (Instructor rated)",
+                        "BE58 (Instructor rated) ",
+                        "PA30 (Instructor rated) ",
+                        "PA 28 140/160/180 (Instructor rated)",
+                        "C172 (Instructor rated)",
+                        "Total flight time approximately 2000 hours with Flight Instructor Rating",
+                        "400 hours multi-engine aircraft",
+                        "500 hours multi-crew experience"
+                    ]
+                }
+            ],
+            qualifications: []
+        },
+        {
+            id: 4,
+            category: "Aviation",
+            experience: "Staff Management",
+            img: "management.jpg",
+            imgDescription: "Staff Management",
+            subcategory: [],
+            qualifications: [
+                "Air Safety Operations Manager (Act): Part 135 Aircraft",
+                "Air Safety Operations Manager (Act): Operations Planning",
+                "Air Safety Operations Manager (Act): Pilot Training",
+                "Served as Manager during the Federal Aviation Agency (FAA) and International Civil Aviation Organization (ICAO) national audits.",
+                "Air Safety Operations Senior Manager (Act. on numerous occasions)",
+                "Air Safety Operations General Manager (Act. on few occasions)",
+                "Chief Executive Officer (CEO): National Aeronautics",
+                "Quality Assurance Manager at National Aeronautics",
+                "Air Service Licensing Council Document approvals"
+            ]
+        },
+        {
+            id: 5,
+            category: "Aviation",
+            experience: "Safety Risk Management",
+            img: "risk.jpg",
+            imgDescription: "Safety Risk Management",
+            subcategory: [],
+            qualifications: [
+                "Government Service Safety Inspector (GSI)",
+                "Flight Safety Officer",
+                "Safety Management Systems Auditor in compliance to National Regulations",
+                "Structured Reasoning Frameworks or Rubrics Development and Evaluation Management",
+                "Familiar with Enterprise Workflow Management across HR, security and communications",
+                "Strong organizational and stakeholder management skills",
+                "Quality Management Systems (QMS) Auditor in compliance to National Regulations",
+                "Processing of Exemptions from National Regulation Approvals",
+                "Flight Operations Standard Operating Procedures Auditor",
+                "Manual of Procedures Auditor",
+                "Airport Ramp Inspector",
+                "Route Surveillance Safety Inspector",
+                "Crew Resource Management (CRM)",
+                "Fatigue Risk Management",
+                "Crisis Management",
+                "Incident Response Management",
+                "Monitoring Flight Safety systems",
+                "Route Navigation (R-NAV), GNSS approvals",
+                "Aircraft Minimum Equipment List (MEL) approvals",
+                "Incident and Accident prevention planning together with monitoring and follow up of corrective action",
+                "Part of Aviation Incident and Accident Investigations panel",
+                "Creator of the Master Surveillance Plan Program within the SACAA at the FAA Audit Oversight",
+                "Flight Simulator Safety Oversight",
+                "Site and Airlines Inspections Auditor in compliance to National Regulations",
+                "Oversight of aircraft Route Checks, Ramp Checks, Station Checks, Safety and Security Checks",
+                "Certification of Airline Operator Certificate Holders",
+                "Proactively research, develop and propose the specific standards to be applied in the area of aircraft operator operations"
+            ]
+        },
+        {
+            id: 6,
+            category: "Aviation",
+            experience: "National Regulatory Implementation",
+            img: "implementation.jpg",
+            imgDescription: "National Regulatory Implementation",
+            subcategory: [],
+            qualifications: [
+                "Part of the South African Qualifications Authority (SAQA) Standard Generating Body for Pilot Qualification levels 4 - 8",
+                "Part of South African Qualifications Authority (SAQA) Standard Generating Body for Flight Performance Analyst",
+                "Part of South African Qualifications Authority (SAQA) Standard Generating Body for Flight Dispatch ",
+                "Part of the South African Qualifications Authority (SAQA) Standard Generating Body for Air Traffic Control",
+                "Government Service Inspector qualified",
+                "Safety Management Systems qualified"
+            ]
+        },
+        {
+            id: 7,
+            category: "Engineering",
+            experience: "Engineering",
+            img: "engineering.jpg",
+            imgDescription: "Engineering",
+            subcategory: [],
+            qualifications: [
+                "Electronic Engineering (Majored in Instrumentation)",
+                "Technical Officer at Telkom Communications Data Networking Department",
+                "Maintenance of Information Networks",
+                "Part of Engineering for Integrated Services Digital Networks (ISDN) communication",
+                "Part of Engineering for Optic Fibre communication establishment"
+            ]
+        },
+        {
+            id: 8,
+            category: "Home Owners' Association (HOA)",
+            experience: "Home Owners' Association (HOA) Management",
+            img: "hoa.jpg",
+            imgDescription: "Home Owners' Association (HOA)",
+            subcategory: [],
+            qualifications: [
+                "Chairman of Residential Estate",
+                "Security Operations Management",
+                "Maintenance and Infrastructure Management",
+                "Staff Management (security, gardening, facilities, administration)",
+                "Resident complaints and HOA Governance",
+                "Contractors and Capital Projects Management",
+                "Familiar with Enterprise Workflow Management across HR, security and communications",
+                "Strong organizational and stakeholder management skills",
+            ]
+        },
+        {
+            id: 9,
+            category: "Sales",
+            experience: "Sales",
+            img: "sales.jpg",
+            imgDescription: "Sales",
+            subcategory: [],
+            qualifications: [
+                "Customer-centric, easy to talk to and quick to understand what customers need, offering practical DIY advice that fits their budget and skill level.",
+                "Confident in approaching customers and guiding them from asking questions to making a purchase.",
+                "Good at suggesting extra tools or materials that help get the job done better.",
+                "Able to explain complicated things in a simple, easy-to-follow way.",
+                "Pays close attention to detail, making sure customers get the right products at the right price.",
+                "Builds strong relationships with customers, encouraging them to come back.",
+                "Naturally supports teammates and shares knowledge to help everyone do better.",
+                "Keeps shelves and displays neat and easy to shop, helping customers find what they need.",
+                "Reliable and accountable, delivering good results even under pressure.",
+                "Supports promotions and helps customers take advantage of current deals.",
+                "Works well with others to meet store goals and improve sales.",
+                "Adapts easily to different customers and busy store situations.",
+                "Focused on giving great service and making sure customers leave satisfied.",
+                "Always looking for ways to improve and get better at helping customers.",
+                "Helps guide and influence others in a positive way.",
+                "Handles money and transactions carefully and honestly.",
+                "Offers practical, real-world advice to solve DIY problems.",
+                "Communicates clearly and can show customers how products work.",
+                "Keeps things running smoothly between sales, stock, and support teams.",
+                "Helps organize the store so it’s easy to move around and shop.",
+                "Handles customer complaints calmly and finds solutions.",
+                "Driven to meet sales targets and get good results.",
+                "Understands how to balance customer needs with business goals.",
+                "Notices buying trends and helps improve stocking decisions.",
+                "Reduces returns by making sure customers buy the right product the first time.",
+                "Learns new products quickly and uses that knowledge confidently.",
+                "Shares useful ideas to improve how the team works.",
+                "Self-motivated and always trying to improve performance.",
+                "Well organized and able to handle multiple tasks at once.",
+                "Stays calm and effective during busy or stressful times.",
+                "Strong communication skills, both spoken and written.",
+                "Thinks in a clear, structured way when solving problems.",
+                "Understands how different parts of the business work together.",
+                "Fair and balanced when dealing with customers and store policies.",
+                "Hands-on experience with maintenance and repairs, adding credibility.",
+                "Experienced in working with different people and responsibilities.",
+                "Handles unpredictable situations without losing focus.",
+                "Maintains high standards in product handling and customer service.",
+                "Strong technical background, helpful when advising on tools and equipment.",
+                "Good at teaching and explaining things to others.",
+                "Creative problem-solver who can suggest better alternatives.",
+                "Good with people from all backgrounds and able to handle conflict well."
+            ]
+        }
+    ]
+}
+
+export default interests;
