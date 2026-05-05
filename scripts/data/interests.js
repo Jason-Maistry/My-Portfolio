@@ -47,9 +47,9 @@ const interests = {
                 "Performance-Based Navigation ",
                 "Safety Emergency Performance Training (SEPT)",
                 "Route Navigation (R-NAV), GNSS",
-                "Radiotelephony Examiner",
                 "Dangerous Goods (DG) Air Crew qualified",
-                "Curriculum Developer and Lecturer in 26 Aviation related subjects including Human Factors"
+                "Curriculum Developer and Lecturer in 26 Aviation related subjects including Human Factors",
+                "Radiotelephony Examiner & Oversight Auditor"
             ]
         },
         {
@@ -92,7 +92,7 @@ const interests = {
                     ]
                 },
                 {
-                    title: "Type Experience",
+                    title: "Aircraft Type Experience",
                     qualifications: [
                         "Pilatus Astra PC 7 Mkll (Instructor rated) ",
                         "Caravan 208 (licence endorsed)",
