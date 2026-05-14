@@ -9,7 +9,7 @@ const socials = [
     id: 2,
     name: "Email",
     img: "email.png",
-    link: "mailto:maistryjaata@gmail.com",
+    link: "mailto:jasonmaistry777@gmail.com",
   },
   {
     id: 3,
