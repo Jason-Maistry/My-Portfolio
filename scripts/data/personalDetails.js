@@ -11,10 +11,10 @@ const personalDetails = [
     key: "Email",
     value: `<a 
               class="email"
-              href="mailto:jasonmaistry777@gmail.com" 
+              href="mailto:jasonmaistryvog@gmail.com" 
               target="_blank" 
               rel="noopener noreferrer">
-                jasonmaistry777@gmail.com
+                jasonmaistryvog@gmail.com
             </a>`
   },
   {
